@@ -9,6 +9,12 @@ print(my_array)
 
 # printing array elements using loop
 print("Array elements")
+for i in range(4):
+    print(my_array[i],end=' ')
+    
+print("\n")
+
+# or we can use as for loop to direct array name
 for i in my_array :
     print(i,end=' ')
 
@@ -28,3 +34,22 @@ import numpy as np
 my_array = np.array([1, 2, 3, 4, 5])
 print(type(my_array))  
 print(my_array)  
+
+
+
+
+# Create an array using numpy
+import numpy as np
+a = np.array([1,2,3,4,5,6,7,8])
+print("Array is :",a)
+
+# 2d array using numpy
+b = np.array([[1,2,3,4],[4,6,8,9]])
+print("Array is :",b)
+
+# # 1d array with two list types 
+# c = np.array([[1,2,3],[1,8]])
+# # gives error as inhomogenous part 
+# print("Array is :",c)
+
+
