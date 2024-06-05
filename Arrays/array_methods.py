@@ -44,6 +44,7 @@ print("Popped element is:", pop_element)
 array.remove('Z')
 print("Array after removing 'Z':", array)
 
+
 # Reverse the entire array
 array.reverse()
 print("Reversed array is:", array)
