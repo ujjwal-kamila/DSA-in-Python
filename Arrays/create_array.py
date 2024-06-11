@@ -30,12 +30,10 @@ while (i < len(my_array)):
 # using  numpy 
 import numpy as np
 
-# Creating a numpy array
+### Creating a numpy array
 my_array = np.array([1, 2, 3, 4, 5])
 print(type(my_array))  
 print(my_array)  
-
-
 
 
 # Create an array using numpy
@@ -53,3 +51,15 @@ print("Array is :",b)
 # print("Array is :",c)
 
 
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print("Iterating over the matrix:")
+for row in matrix:
+    for element in row:
+        print(element, end=' ')
+    print()
