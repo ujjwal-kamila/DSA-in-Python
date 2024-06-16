@@ -3,6 +3,8 @@
 #using array modules
 
 import array as arr
+# Or we can import as "from array import *"
+from array import *
 my_array = arr.array('i',[1,3,2,4,5,6,8,7])
 print(type(my_array))
 print(my_array)
