@@ -36,5 +36,3 @@ t2 = Test1(7,8)
 print(t1.a,t1.b)
 print(t2.a,t2.b)
 
-        
-        
