@@ -17,8 +17,9 @@ node2.next = node3
 node3.next = node4
 
 # print data by traversing 
-curr_node = node1
+current_node = node1
 
-while curr_node is not None :
-    print("Current node is :",curr_node.data)
-    curr_node = curr_node.next
+while current_node is not None :
+    print("Current node is :",current_node.data)
+    current_node = current_node.next
+
