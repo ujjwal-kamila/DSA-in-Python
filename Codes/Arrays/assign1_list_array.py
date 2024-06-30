@@ -1,6 +1,9 @@
 # Assignment-1: Array and List
 
-# 1. Given an array with some integer type values, write a Python script to sort array values.
+# 1. Given an array with some integer type values, write a Python script to sort array values
+
+
+
 
 
 # 2. Given a list of heterogeneous elements, write a Python script to remove all the non-integer values from the list.

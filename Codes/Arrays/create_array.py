@@ -53,7 +53,6 @@ print("Array is :",b)
 # print("Array is :",c)
 
 
-
 matrix = [
     [1, 2, 3],
     [4, 5, 6],
