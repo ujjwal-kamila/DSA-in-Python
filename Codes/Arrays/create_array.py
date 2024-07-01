@@ -11,7 +11,7 @@ print(my_array)
 
 # printing array elements using loop
 print("Array elements")
-for i in range(4):
+for i in range(len(my_array)):
     print(my_array[i],end=' ')
     
 print("\n")
