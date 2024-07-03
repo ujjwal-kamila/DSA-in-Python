@@ -7,10 +7,7 @@ def sort_array(arr):
 # Example usage
 array = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
 sorted_array = sort_array(array)
-print("Sorted array:", sorted_array)
-
-
-
+print("Sorted array is : ", sorted_array)
 
 
 # 2. Given a list of heterogeneous elements, write a Python script to remove all the non-integer values from the list.
