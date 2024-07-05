@@ -22,6 +22,26 @@ print("Filtered list:", filtered_list)
 
 
 # 3. Write a Python script to calculate the average of elements of a list.
+def calculate_average(numbers):
+    # Check if the list is empty
+    if not numbers:
+        return 0
+    
+    # Calculate the sum of all elements in the list
+    total = sum(numbers)
+    
+    # Calculate the number of elements in the list
+    count = len(numbers)
+    
+    # Calculate the average
+    average = total / count
+    
+    return average
+
+# Example usage
+numbers = [10, 20, 30, 40, 50]
+average = calculate_average(numbers)
+print(f"The average is: {average}")
 
 
 
