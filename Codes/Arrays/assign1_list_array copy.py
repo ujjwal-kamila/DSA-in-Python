@@ -26,36 +26,27 @@ def calculate_average(numbers):
     # Check if the list is empty
     if not numbers:
         return 0
-    
     # Calculate the sum of all elements in the list
     total = sum(numbers)
-    
     # Calculate the number of elements in the list
     count = len(numbers)
-    
     # Calculate the average
     average = total / count
-    
     return average
-<<<<<<< HEAD
-=======
-
-# Example usage
-numbers = [10, 20, 30, 40, 50]
-average = calculate_average(numbers)
-print(f"The average is: {average}")
->>>>>>> 37b0cec4018d0aa92095cf4b08da7396340a63f3
-
 # Example usage
 numbers = [10, 20, 30, 40, 50]
 average = calculate_average(numbers)
 print(f"The average is: {average}")
 
+# Example usage
+numbers = [10, 20, 30, 40, 50]
+average = calculate_average(numbers)
+print(f"The average is: {average}")
 
 
 # 4. Write a Python script to create a list of the first N prime numbers.
 def is_prime(num):
-    """ Function to check if a number is prime """
+    # """ Function to check if a number is prime """
     if num < 2:
         return False
     for i in range(2, int(num**0.5) + 1):
@@ -64,7 +55,7 @@ def is_prime(num):
     return True
 
 def first_n_primes(n):
-    """ Function to generate the first N prime numbers """
+    # """ Function to generate the first N prime numbers """
     primes = []
     num = 2
     while len(primes) < n:
