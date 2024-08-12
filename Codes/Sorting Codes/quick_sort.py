@@ -1,15 +1,13 @@
-# Selection sort implementation
-def selection_sort(arr):
-    for i in range(len(arr)):
-        # Find the minimum element in remaining unsorted array
-        min_idx = i
-        for j in range(i+1, len(arr)):
-            if arr[j] < arr[min_idx]:
-                min_idx = j
-        # Swap the found minimum element with the first element
-        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+# Quick sort implementation
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
 
 # Example usage
-arr = [64, 25, 12, 22, 11]
-selection_sort(arr)
-print("Selection Sorted array:", arr)
+arr = [3, 6, 8, 10, 1, 2, 1]
+print("Quick Sorted array:", quick_sort(arr))
