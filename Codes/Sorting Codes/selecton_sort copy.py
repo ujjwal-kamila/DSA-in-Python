@@ -1,3 +1,4 @@
+#  Selection Sort: Selects the minimum element and places it at the beginning of the unsorted array.
 # Selection sort implementation
 def selection_sort(arr):
     for i in range(len(arr)):

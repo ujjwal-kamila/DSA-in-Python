@@ -1,3 +1,4 @@
+# Insertion Sort: Iterates and places elements in the correct position one by one.
 # Insertion sort implementation
 def insertion_sort(arr):
     for i in range(1, len(arr)):

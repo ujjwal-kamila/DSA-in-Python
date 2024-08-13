@@ -1,3 +1,4 @@
+#Bubble Sort: Repeatedly swaps adjacent elements if they are in the wrong order. 
 # Bubble sort implementation
 def bubble_sort(arr):
     n = len(arr)
