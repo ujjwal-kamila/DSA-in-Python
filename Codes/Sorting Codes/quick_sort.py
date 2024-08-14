@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # Quick Sort: Divides the array into smaller sub-arrays around a pivot.
+=======
+>>>>>>> e692ec2e00e5c2e57a6d26a963e32e5a4cab6842
 # Quick sort implementation
 def quick_sort(arr):
     if len(arr) <= 1:
