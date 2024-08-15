@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 #  Merge Sort: Divides the array into halves and merges them back after sorting.
+=======
+>>>>>>> e692ec2e00e5c2e57a6d26a963e32e5a4cab6842
 # Merge sort implementation
 def merge_sort(arr):
     if len(arr) > 1:
