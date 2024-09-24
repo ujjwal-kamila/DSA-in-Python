@@ -38,11 +38,6 @@ numbers = [10, 20, 30, 40, 50]
 average = calculate_average(numbers)
 print(f"The average is: {average}")
 
-# Example usage
-numbers = [10, 20, 30, 40, 50]
-average = calculate_average(numbers)
-print(f"The average is: {average}")
-
 
 # 4. Write a Python script to create a list of the first N prime numbers.
 def is_prime(num):
